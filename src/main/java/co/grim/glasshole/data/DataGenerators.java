@@ -16,9 +16,10 @@ public class DataGenerators
 		
 		if(event.includeServer()){
 			gen.addProvider(new Recipes(gen));
+			gen.addProvider(new ItemTags(gen));
 		}
 		if(event.includeClient()){
-			gen.addProvider(new BlockStates(gen, event.getExistingFileHelper()));
+		
 		}
 	}
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "glasshole:wooden_glasscutter"
+    ]
+  },
+  "criteria": {
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:flint"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "glasshole:wooden_glasscutter"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flint",
+      "has_the_recipe"
+    ]
+  ]
+}

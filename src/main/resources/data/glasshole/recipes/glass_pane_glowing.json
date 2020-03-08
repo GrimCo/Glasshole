@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XGX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:glass_pane"
+    },
+    "G": {
+      "tag": "forge:dusts/glowstone"
+    }
+  },
+  "result": {
+    "item": "glasshole:glass_pane_glowing",
+    "count": 8
+  }
+}

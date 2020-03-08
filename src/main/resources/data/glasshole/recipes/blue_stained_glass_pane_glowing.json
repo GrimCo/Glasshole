@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glasshole:stained_pane",
+  "pattern": [
+    "XXX",
+    "XGX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_stained_glass_pane"
+    },
+    "G": {
+      "tag": "forge:dusts/glowstone"
+    }
+  },
+  "result": {
+    "item": "glasshole:blue_stained_glass_pane_glowing",
+    "count": 8
+  }
+}

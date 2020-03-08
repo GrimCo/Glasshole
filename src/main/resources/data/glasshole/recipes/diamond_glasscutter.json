@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glasshole:glasscutter",
+  "pattern": [
+    "  I",
+    " SF",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "glasshole:diamond_glasscutter"
+  }
+}

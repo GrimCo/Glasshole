@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "glasshole:wooden_glasscutter",
+    "glasshole:stone_glasscutter",
+    "glasshole:iron_glasscutter",
+    "glasshole:golden_glasscutter",
+    "glasshole:diamond_glasscutter"
+  ]
+}

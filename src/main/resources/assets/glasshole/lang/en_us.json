@@ -1,5 +1,10 @@
 {
   "itemGroup.glasshole":"Glasshole",
+  "item.glasshole.wooden_glasscutter": "Wooden Glass Cutter",
+  "item.glasshole.stone_glasscutter": "Stone Glass Cutter",
+  "item.glasshole.iron_glasscutter": "Iron Glass Cutter",
+  "item.glasshole.golden_glasscutter": "Golden Glass Cutter",
+  "item.glasshole.diamond_glasscutter": "Diamond Glass Cutter",
   "block.glasshole.glass_glowing": "Glowing Glass",
   "block.glasshole.white_stained_glass_glowing": "Glowing White Stained Glass",
   "block.glasshole.orange_stained_glass_glowing": "Glowing Orange Stained Glass",

@@ -1,9 +1,11 @@
 package co.grim.glasshole.init;
 
 import co.grim.glasshole.Glasshole;
+import co.grim.glasshole.items.GlassCutterItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.Properties;
+import net.minecraft.item.ItemTier;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,6 +15,14 @@ public class ModItems
 	public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Glasshole.MODID);
 	
 	public static Properties defaultProps = new Properties().group(Glasshole.itemGroup);
+	
+	
+	public static RegistryObject<GlassCutterItem> WOODEN_GLASSCUTTER = ITEMS.register("wooden_glasscutter",() -> new GlassCutterItem(ItemTier.WOOD, 1.5F, -3.0F));
+	public static RegistryObject<GlassCutterItem> STONE_GLASSCUTTER = ITEMS.register("stone_glasscutter", () -> new GlassCutterItem(ItemTier.STONE, 1.5F, -3.0F));
+	public static RegistryObject<GlassCutterItem> IRON_GLASSCUTTER = ITEMS.register("iron_glasscutter", () -> new GlassCutterItem(ItemTier.IRON,1.5F, -3.0F));
+	public static RegistryObject<GlassCutterItem> GOLD_GLASSCUTTER = ITEMS.register("golden_glasscutter", () -> new GlassCutterItem(ItemTier.GOLD,1.5F, -3.0F));
+	public static RegistryObject<GlassCutterItem> DIAMOND_GLASSCUTTER = ITEMS.register("diamond_glasscutter", () -> new GlassCutterItem(ItemTier.DIAMOND, 1.5F, -3.0F  ));
+	
 	
 	public static RegistryObject<BlockItem> glowingGlass = ITEMS.register("glass_glowing", ()->new BlockItem(ModBlocks.glowingGlass.get(),defaultProps));
 	public static RegistryObject<BlockItem> glowingGlassPane =ITEMS.register("glass_pane_glowing", () -> new BlockItem(ModBlocks.glowingGlassPane.get(), defaultProps));
